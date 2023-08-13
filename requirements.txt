@@ -1,1 +1,4 @@
 rasa
+openai
+python-dotenv
+black
