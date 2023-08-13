@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_image
 
 responses:
   utter_greet:
@@ -29,6 +30,15 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
+  utter_ask_image:
+  - text: "Sure! Please provide me with the URL of the image you'd like me to analyze."
+
+  utter_image_analysis:
+  - text: "I've analyzed the image and found..."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
+actions:
+  - action_process_image

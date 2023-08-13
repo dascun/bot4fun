@@ -28,3 +28,10 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: user provides an image to analyze
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: ask_image
+    - action: action_process_image

@@ -89,3 +89,8 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: ask_image
+  examples: |
+    - Can you analyze this image for me?
+    - I have an image that I need help with.

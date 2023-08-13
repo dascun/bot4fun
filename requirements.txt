@@ -2,3 +2,4 @@ rasa
 openai
 python-dotenv
 black
+opencv-python
